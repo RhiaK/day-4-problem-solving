@@ -13,6 +13,12 @@ console.log(palindrome("tacocat"));
 const sumDigits = (x, y) => {
 	return (x + y);
 }
-console.log(sumDigits(3, 5));*/
+console.log(sumDigits(3, 5));
+//Pythagoras
+const calculateSide = (sideA, sideB) => {
+	return(Math.sqrt((Math.pow(sideA, 2)) + (Math.pow(sideB, 2))));
+};
+
+console.log(calculateSide(8, 6));*/
 
 
