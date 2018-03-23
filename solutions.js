@@ -28,8 +28,18 @@ const sumArray = (x, y) => {
 	}
 }
 
-console.log(arr.reduce(sumArray));*/
+console.log(arr.reduce(sumArray));
+//Prime Numbers
+const checkPrime = (num) => {
+    for( let i = 2, r = Math.sqrt(num); i <= r; i++ ) 
+        if(num % i === 0) return false;        	
+    return num !== 1;
+}
+console.log(checkPrime(97));
 
+//having trouble with the printPrimes function
+
+//Insert Dash
 
 
 
