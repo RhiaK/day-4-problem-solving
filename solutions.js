@@ -19,6 +19,24 @@ const calculateSide = (sideA, sideB) => {
 	return(Math.sqrt((Math.pow(sideA, 2)) + (Math.pow(sideB, 2))));
 };
 
-console.log(calculateSide(8, 6));*/
+console.log(calculateSide(8, 6));
+//Sum Array
+const arr = [1, 2, 3, 4, 5, 6];
+const sumArray = (x, y) => {
+	for(i = 1; i <= arr.length; i ++) {
+		return x + y;
+	}
+}
+
+console.log(arr.reduce(sumArray));*/
+
+
+
+
+
+
+
+
+
 
 
